@@ -1,0 +1,219 @@
+   body {
+    color: black;
+    font-family: 'Lora', serif;
+    margin: 0;
+  }
+  
+  a {
+    cursor: pointer;
+  }
+
+  header {
+    color: white;
+    background-image: url(https://www.allfoodsicily.it/wp-content/uploads/2022/01/Delia-Schembri.png);
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  header h1 {
+    font-weight: normal;
+    text-align: center;
+    z-index: 1;
+  }
+  
+  header h1 a {
+    font-size: 15px;
+  }
+  
+  header h1 em {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  
+  header h1 strong {
+    font-size: 68px;
+    letter-spacing: 4px;
+  }
+  
+  header nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #links a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+  }
+  
+  nav img {
+    height: 27%;
+    width: 27%;
+  }
+  
+  #main p {
+    font-size: 21px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    width: 60%;
+    text-align: center;
+  }
+  
+  #main h1 {
+    font-size: 73px;
+    letter-spacing: 3px;
+    font-weight: normal;
+    font-family: 'Cookie', sans-serif;
+    color: rgba(26,26,26,.9);
+    margin: 30px 10px 5px 10px;
+    text-align: center;
+  }
+
+  #menu {
+    display: none;
+
+  }
+  
+  #menu div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+  }
+
+  @media (max-width: 500px) {
+    #links {
+      display: none;
+    }
+  
+    #menu {
+      display: block;
+    }
+  }
+
+  .button,
+  header h1 strong, 
+  #links {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  h1 p{
+    font-family: 'Cookie', sans-serif;
+    font-size: 60px;
+  }
+
+  h1 a.button {
+    background-color: black;
+    border: 2px solid white;
+    padding: 10px 15px;
+    border-radius: 100px;
+  }
+
+  h1 a.button:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  section {
+    display: flex;
+    flex-wrap: wrap;    
+    height: auto;
+    justify-content: space-between;
+    font-family: 'Hebbo', monospace,sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: normal;
+    color: white; 
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  section div {
+    margin-top: 6vw;
+    width: 500px;
+  }
+
+  section img {
+    height: 400px;
+    width: 400px;
+  }
+
+  section  div h1 {
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+    text-decoration: underline;
+    color: rgb(86, 8, 0);
+  }
+
+  section  div p {
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    font-family: 'Merriweather', sans-serif;
+    margin: 28px;  
+  }
+
+  footer {
+    background-color: rgb(31, 31, 31);
+    color: rgba(255, 255, 255, .8);
+    padding: 28px;
+    text-align: center;
+  }
+
+  #footer_info{
+    height: 100px;
+    padding: 20px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #footer_info img {
+    width: 17%;
+  }
+
+  #social_media img{
+    margin: 10px 5px 0px;
+    width: 25%;
+    cursor: pointer;
+  }
+
+  footer h1 {
+    margin: 0px 0px 0px 5px;
+  }
+
+  footer p {
+    color: rgba(255, 255, 255, .4);
+  }
+
